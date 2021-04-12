@@ -1,0 +1,123 @@
+:root {
+    /* Colour */
+    --primary-color: rgba(51,51,51,1);
+    --secondary-color: rgba(255,255,255,1);
+    --gray-color: rgba(79,79,79,1);
+    /* Margin and Padding */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+main {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: auto;
+    /* padding-left: 2.4rem; */
+}
+
+.header-container {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 44px;
+}
+.header-container h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+.hero-image {
+    width: 287px;
+    height: 238px;
+    background-image: url(./src/assets/Scarecrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.hero-content {
+    width: 300px;
+    max-width: 500px;
+    margin: 0 auto
+}
+.hero-content h1 {
+    font-size: 2.3rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.5;   
+}
+.hero-content p {
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+.hero-content button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    width: 216px;
+    height: 68px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(189, 189, 189, 1);
+}
+
+
+@media (min-width: 1090px) {
+    .heroImageContent {
+        display: flex;
+    }
+    .hero-image {
+        width: 540px;
+        height: 444px;
+    }
+    .hero-content {
+        width: 586px;
+    } 
+    .hero-content .title-content {
+        font-size: 2.9rem;
+    }
+    .hero-content .paragraph-content {
+        font-size: 20px;
+    }
+}
+@media (min-width: 700px) {
+    body {
+        height: auto;
+    }
+    .heroImageContent {
+        display: flex;
+        gap: 50px;
+    }
+    .hero-image {
+        width: 540px;
+        height: 444px;
+    }
+    .hero-content {
+        width: 586px;
+    } 
+    .hero-content .title-content {
+        font-size: 2.9rem;
+    }
+    .hero-content .paragraph-content {
+        font-size: 20px;
+    }
+}
