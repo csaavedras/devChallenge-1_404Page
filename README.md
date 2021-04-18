@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{upbeat-meninsky-42cbae.netlify.app}">
+    <a href="https://upbeat-meninsky-42cbae.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{upbeat-meninsky-42cbae.netlify.app}">
+    <a href="https://upbeat-meninsky-42cbae.netlify.app">
       Solution
     </a>
     <span> | </span>
@@ -41,9 +41,11 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+ I use netlify for deploy my website Challenge #1 https://www.netlify.com/
 - What was your experience?
+ I felt great to start this series of challenges, because i need to practice and improve my skills of front end developer
 - What have you learned/improved?
-- Your wisdom? :)
+ basically the most hard part is how to start but in this challenge the most difficult it's how to build a responsive website with flexbox and media queries
 
 ### Built With
 
